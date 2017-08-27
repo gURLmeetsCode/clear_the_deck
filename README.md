@@ -14,7 +14,7 @@ We expect candidates to spend 1-3 hours on this exercise.  By the way, you may u
 
 ## Comments
 
-The current code implemented is considered to be a brute force approach that is ideal for moderately sized datasets. However to address the concern of scaling and bottlenecks, I would implement a stable sorting algorithm such Timsort which would allow for O(1) auxiliary space and O(log(n)) runtime.
+The current code implemented is considered to be a brute force approach that is ideal for moderately sized datasets. However to address the concern of scaling and bottlenecks, I would implement a stable sorting algorithm such as Timsort which would allow for O(1) auxiliary space and O(nlog(n)) runtime.
 
 The solutions were tested on the following datasets: 10, 50, 1000, 1M(which caused a compiling error).
 
