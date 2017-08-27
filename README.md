@@ -12,6 +12,11 @@ There are two parts of the challenge which you'll see when you dive into things.
 
 We expect candidates to spend 1-3 hours on this exercise.  By the way, you may use any third party modules you like, and by all means feel free to ask questions!
 
+##Comments
+
+The current code implemented is considered to be a brute force approach that is ideal for moderately sized datasets. However to address the concern of scaling and bottlenecks, I would implement a stable sorting algorithm such Timsort which would allow for O(1) auxiliary space and O(log(n)) runtime.
+
+The solutions were tested on the following datasets: 10, 50, 1000, 1M(which caused a compiling error).
 
 ## Submission
 
